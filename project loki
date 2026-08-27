@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosendo Cuyasen </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Rafting Website</a>
+        </nav>
+</header>
+<main>
+    <h1>Rosendo Cuyasen | WDD 130</h1>
+    <img src="images/cuyasen-fam-2023dec.jpg" alt="Cuyasen Family" width="200" height=
+    <p> I am Rosendo Cuyasen a student at <a href="http://byupathway.edu">BYU Pathway
+
+</main>
+<footer>
+    <p>&copy; 2025 Jersha kurt caballero </p>
+</footer>

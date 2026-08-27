@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShaSey | Fashion & Style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sha<span>Sey</span></div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trends">Trends</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="small-title">WELCOME TO SHASEY</p>
+
+            <h1>Wear Your<br><span>Story.</span></h1>
+
+            <p>
+                Discover fashion inspiration, trends, and styles
+                that help you express your unique personality.
+            </p>
+
+            <a href="#trends" class="btn">Explore Styles</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
+                 alt="Fashion clothing">
+        </div>
+    </section>
+
+
+    <!-- Trends -->
+    <section class="section" id="trends">
+        <div class="section-title">
+            <p>WHAT'S IN</p>
+            <h2>Latest Trends</h2>
+        </div>
+
+        <div class="trend-container">
+
+            <div class="trend-card">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=700&q=80"
+                     alt="Casual fashion">
+                <div class="card-content">
+                    <h3>Casual Chic</h3>
+                    <p>Simple pieces, effortless style.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+
+            <div class="trend-card">
+                <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80"
+                     alt="Streetwear fashion">
+                <div class="card-content">
+                    <h3>Street Style</h3>
+                    <p>Bold looks with personality.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+
+            <div class="trend-card">
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+                     alt="Elegant fashion">
+                <div class="card-content">
+                    <h3>Elegant Looks</h3>
+                    <p>Timeless pieces for every occasion.</p>
+                    <button>Explore</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <div class="section-title">
+            <p>FIND YOUR STYLE</p>
+            <h2>Fashion Categories</h2>
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category">
+                <span>01</span>
+                <h3>Everyday Wear</h3>
+                <p>Comfortable and stylish outfits for daily life.</p>
+            </div>
+
+            <div class="category">
+                <span>02</span>
+                <h3>Party Looks</h3>
+                <p>Stand out with fun and confident outfits.</p>
+            </div>
+
+            <div class="category">
+                <span>03</span>
+                <h3>Office Style</h3>
+                <p>Look polished while staying comfortable.</p>
+            </div>
+
+            <div class="category">
+                <span>04</span>
+                <h3>Streetwear</h3>
+                <p>Express yourself with bold and modern pieces.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Featured -->
+    <section class="section" id="featured">
+
+        <div class="section-title">
+            <p>OUR PICKS</p>
+            <h2>Featured Styles</h2>
+        </div>
+
+        <div class="featured-grid">
+
+            <div class="fashion-item">
+                <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=700&q=80"
+                     alt="Fashion outfit">
+                <h3>Soft & Feminine</h3>
+                <p>Romantic pieces for a soft look.</p>
+            </div>
+
+            <div class="fashion-item">
+                <img src="https://images.unsplash.com/photo-1496217590455-aa63a8350eea?auto=format&fit=crop&w=700&q=80"
+                     alt="Fashion outfit">
+                <h3>Minimal & Modern</h3>
+                <p>Clean silhouettes and effortless style.</p>
+            </div>
+
+            <div class="fashion-item">
+                <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80"
+                     alt="Fashion outfit">
+                <h3>Bold & Confident</h3>
+                <p>Fashion that makes a statement.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div>
+            <p class="small-title">ABOUT SHASEY</p>
+            <h2>Style is your<br><span>story.</span></h2>
+        </div>
+
+        <p>
+            ShaSey is a fashion platform created by Jersha and Kelsey.
+            Our goal is to inspire people to explore fashion,
+            discover their personal style, and feel confident in
+            what they wear.
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <h2>Sha<span>Sey</span></h2>
+        <p>Your style. Your story. Your way.</p>
+
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">TikTok</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 ShaSey. All rights reserved.
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
